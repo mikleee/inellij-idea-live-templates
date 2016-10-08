@@ -1,1 +1,1 @@
-# inellij-idea-live-templates
+Live templates for intellij idea
