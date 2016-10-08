@@ -1,5 +1,5 @@
 public java.lang.String toString() {
-final java.lang.StringBuilder sb = new java.lang.StringBuilder("$classname: ");
+final java.lang.StringBuilder sb = new java.lang.StringBuilder(getClass().getSimpleName()).append(": ");
 #set ($i = 0)
 #foreach ($member in $members)
     if($member.accessor != null) sb.append(" $member.name=") ##
